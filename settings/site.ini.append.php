@@ -6,6 +6,7 @@ Extensions[]=jdfilter
 TransformationGroup=urlalias_iri
 Filters[]
 Filters[]=jdfilter
+FilterClasses[]=jdFilter
 
 [JDTranslation]
 URLLanguage[]
