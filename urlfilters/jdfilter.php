@@ -11,9 +11,9 @@ class jdFilter extends eZURLAliasFilter
 	{
 		if ( $caller instanceof eZContentObjectTreeNode )
 		{
-			$text = strtolower( $text );
 			if( $languageObject->attribute('locale') == 'chi-CN')
 			{
+				$text = strtolower( $text );
 				if( !preg_match( '/^[-a-z0-9._]+$/i', $text ) )
 				{
 					$valid = false;
